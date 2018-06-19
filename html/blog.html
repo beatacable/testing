@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>PhotoMax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+
+      </head>
+
+<header>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Photo Max!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="html/gallery.html">Gallery</a></li>
+      <li><a href="hours.html">Hours of Operation</a></li>
+      <li><a href="html/blog.html">Blog</a></li>
+      <li><a href="#">Book an Event</a></li>
+      <li><a href="#">Order Prints</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="html/signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="html/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+</header>
+
+    </head>
+    <body>
+      <div class="container">
+     <h4><i> Photo of the day:</i></h4>
+    <img class="size-full wp-image-584411" src="https://op-cdn-madavor.netdna-ssl.com/2018/06/Jan-Hrischenko.jpg" alt="Today’s Photo Of The Day is “You Scared Me” by Jan Hrischenko. Location: British Columbia, Canada." width="1024" height="576" srcset="https://op-cdn-madavor.netdna-ssl.com/2018/06/Jan-Hrischenko.jpg 1024w, https://op-cdn-madavor.netdna-ssl.com/2018/06/Jan-Hrischenko-824x464.jpg 824w, https://op-cdn-madavor.netdna-ssl.com/2018/06/Jan-Hrischenko-768x432.jpg 768w, https://op-cdn-madavor.netdna-ssl.com/2018/06/Jan-Hrischenko-542x305.jpg 542w" sizes="(max-width: 100%) 100vw, 100%">
+      <p> Today’s Photo Of The Day is “You Scared Me” by Jan Hrischenko. Location: British Columbia, Canada.</p>
+    <br>
+    <p>Leave a Reply</p><br>
+    <p>You must <u>Log in</u> to post a comment</p>
+    </body>
+    <style>
+   body {
+     background-color: #FFFAF0;
+   }
+    </style>
+
+    <script type='text/javascript'>
+    $(function(){
+        //Initially hide your inactive tabs
+        $('.tab-pane:not(.active)').hide();
+
+        //When a tab is clicked
+        $(".navbar-nav li a").click(function(){
+          //Hide all current tabs and prepare to select the selected one
+          $('.tab-pane').removeClass('active').hide();
+
+          //Displays your current tab
+          $($(this).attr('href')).addClass('active').show();
+        });
+    });
+</script>
+    </html>

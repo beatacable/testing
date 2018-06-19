@@ -1,0 +1,14 @@
+body {
+  background-color: #FFFAF0;
+}
+h3 {
+  align-content: center;
+  align-self: center;
+  align: center;
+  text-align: center;
+}
+img {
+  image-orientation: center;
+  image-resolution: snap;
+  image-align: center;
+}
